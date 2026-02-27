@@ -8,8 +8,11 @@ set keep-english-in-normal-and-restore-in-insert
 set incsearch
 set hlsearch
 
-" Use system clipboard
+" Use system clipboard - macOS
 set clipboard+=unnamed
+
+" Use system clipboard - Linux with Wayland - also requires installation of wl-clipboard
+" set clipboard += unnamedplus
 
 let mapleader = " "
 
