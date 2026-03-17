@@ -8,6 +8,13 @@ set keep-english-in-normal-and-restore-in-insert
 set incsearch
 set hlsearch
 
+" Use relative numbers in the editor
+" Enable relative numbers
+" Navigation: <number-of-lines>j - move by <number-of-lines> down, <number-of-lines>k - up
+set relativenumber
+" Show absolute line-number for the current line
+set number
+
 " Use system clipboard - macOS
 set clipboard+=unnamed
 
